@@ -14,7 +14,7 @@ div.center{/*centers div horizontally and vertically in page*/
   transform: translate(-50%, -50%)
 }
 
-img {/*centers images in div*/
+img#logo {/*centers image in div*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -41,6 +41,17 @@ input[type=text]:focus{
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+button#SignIn{
+  width: 71 px;
+  height:30 px;
+  background-color: #4485f3;
+  border-radius: 3px;
+  color: #fffffd;
+  margin: none;
+  padding: 0 14px;
+
 }
 
 button {
@@ -77,6 +88,14 @@ p{
   font-size: small;
 }
 
+
+a.nav{
+  color: #272727;
+  font-size: small;
+}
+a.nav:visited{
+  color: #272727;
+}
 
 a{
   text-decoration: none;
